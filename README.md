@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2020-05-24 12:25:19
  * @LastEditors: HCQ
- * @LastEditTime: 2020-05-24 12:48:09
+ * @LastEditTime: 2020-05-24 12:51:53
 --> 
 # RandLA-Net-Enhanced
 
@@ -78,6 +78,7 @@ conda create -n randlanet python=3.5
 source activate randlanet
 conda install cudatoolkit=9.0 cudnn=7.3.1
 pip install -r helper_requirements.txt
+sh compile_op.sh
 pip install tensorflow-gpu==1.11
 ```
 ### 3. SemanticKITTI数据集下载
