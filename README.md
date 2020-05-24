@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2020-05-24 12:25:19
  * @LastEditors: HCQ
- * @LastEditTime: 2020-05-24 12:51:53
+ * @LastEditTime: 2020-05-24 12:58:13
 --> 
 # RandLA-Net-Enhanced
 
@@ -86,7 +86,7 @@ pip install tensorflow-gpu==1.11
 下载链接：[http://semantic-kitti.org/dataset.html#download](http://semantic-kitti.org/dataset.html#download)
 下载内容包含下图中4个文件包。下载完成后，并将其解压至`/data/semantic_kitti/dataset`
 
-![](https://cdn.nlark.com/yuque/0/2020/png/232596/1590214973455-420b2721-ecaa-4396-8d02-a222b7705c1d.png#align=left&display=inline&height=489&margin=%5Bobject%20Object%5D&originHeight=489&originWidth=1484&size=0&status=done&style=none&width=1484)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/232596/1590214973455-420b2721-ecaa-4396-8d02-a222b7705c1d.png#align=left&display=inline&height=489&margin=%5Bobject%20Object%5D&originHeight=489&originWidth=1484&size=0&status=done&style=none&width=1484)
 
 
 
