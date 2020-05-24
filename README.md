@@ -1,3 +1,11 @@
+<!--
+ * @Description: 
+ * @Author: HCQ
+ * @Company(School): UCAS
+ * @Date: 2020-05-24 12:25:19
+ * @LastEditors: HCQ
+ * @LastEditTime: 2020-05-24 12:33:58
+--> 
 # RandLA-Net-Enhanced
 
 此代码基于[https://github.com/QingyongHu/RandLA-Net](https://github.com/QingyongHu/RandLA-Net)优化，下为此代码对应文献信息。
@@ -37,7 +45,7 @@
 
 - `jobs_test_semantickitti.sh` **在测试集上评估时，会在result文件夹中日期最近的文件夹内根据checkpoint记录寻找模型参数文件**
 
-**
+
 ## 重点说明
  
 压缩包下面有**四个文件夹分别对应报告中第三部分的四处尝试优化点**，下表为不同文件夹对应的优化点：
@@ -76,9 +84,8 @@ pip install tensorflow-gpu==1.11
  
 下载链接：[http://semantic-kitti.org/dataset.html#download](http://semantic-kitti.org/dataset.html#download)
 下载内容包含下图中4个文件包。下载完成后，并将其解压至**/data/semantic_kitti/dataset**
-**
-![](https://cdn.nlark.com/yuque/0/2020/png/232596/1590214973455-420b2721-ecaa-4396-8d02-a222b7705c1d.png#align=left&display=inline&height=489&margin=%5Bobject%20Object%5D&originHeight=489&originWidth=1484&size=0&status=done&style=none&width=1484)
 
+![](https://cdn.nlark.com/yuque/0/2020/png/232596/1590214973455-420b2721-ecaa-4396-8d02-a222b7705c1d.png#align=left&display=inline&height=489&margin=%5Bobject%20Object%5D&originHeight=489&originWidth=1484&size=0&status=done&style=none&width=1484)
 
 
 
