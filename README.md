@@ -7,8 +7,11 @@
  * @LastEditTime: 2020-05-24 12:58:13
 --> 
 # RandLA-Net-Enhanced
+原代码论文主要贡献：提出更快的点云语义分割模型。
+* 对比现有的采样方法，发现随机采样最好。
+* 为了减小随机采样丢失的信息，提出局部特征采样器，包括 Local Spatial Encoding (LocSE) 和 Attentive Pooling。
 
-此代码基于[https://github.com/QingyongHu/RandLA-Net](https://github.com/QingyongHu/RandLA-Net)优化，下为此代码对应文献信息。
+下为此代码对应文献信息。
 
 
 ```latex
@@ -19,6 +22,14 @@
   year={2020}
 }
 ```
+
+
+此代码基于[https://github.com/QingyongHu/RandLA-Net](https://github.com/QingyongHu/RandLA-Net)优化
+
+优化参与人员：@Junqi Diao， @Chuanqing Zhuang，@Guangtian Shi， @Yidi Li，@Chongqing Huang
+
+
+
 
 
 
